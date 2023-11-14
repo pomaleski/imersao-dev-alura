@@ -4,7 +4,7 @@ const numeroSecreto = getRandomInt(1001);
 let chute = -1;
 
 while (true) {
-  chute = parseInt(prompt("Digite um número entre 0 e 100!"));
+  chute = parseInt(prompt("Digite um número entre 0 e 1000!"));
   if (chute === numeroSecreto) break;
   
   let msg;
